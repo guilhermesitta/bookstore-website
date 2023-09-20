@@ -1,23 +1,22 @@
-bookstore-website/
-├── src/
-│   └── pages/
-│       └── index.js
-├── assets/
-└── styles/
+cd bookstore-website
 
-git add src/pages/index.js
+# Crie diretórios
+mkdir src
+mkdir assets
+mkdir styles
 
-import React from 'react';
+# Crie um arquivo HTML de exemplo
+echo '<!DOCTYPE html>
+<html>
+  <head>
+    <title>Livraria Online</title>
+  </head>
+  <body>
+    <h1>Bem-vindo à Livraria Online</h1>
+    <p>Descubra uma vasta seleção de livros emocionantes.</p>
+  </body>
+</html>' > src/index.html
 
-const IndexPage = () => {
-  return (
-    <div>
-      <h1>Bem-vindo à Livraria Online</h1>
-      <p>Descubra uma vasta seleção de livros emocionantes.</p>
-    </div>
-  );
-};
-
-export default IndexPage;
+livros.js 
 
 

@@ -1,0 +1,6 @@
+bookstore-website/
+├── src/
+│   └── pages/
+│       └── index.js
+├── assets/
+└── styles/

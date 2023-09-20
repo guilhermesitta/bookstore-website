@@ -4,3 +4,20 @@ bookstore-website/
 │       └── index.js
 ├── assets/
 └── styles/
+
+git add src/pages/index.js
+
+import React from 'react';
+
+const IndexPage = () => {
+  return (
+    <div>
+      <h1>Bem-vindo à Livraria Online</h1>
+      <p>Descubra uma vasta seleção de livros emocionantes.</p>
+    </div>
+  );
+};
+
+export default IndexPage;
+
+
